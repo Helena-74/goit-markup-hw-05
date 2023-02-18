@@ -689,8 +689,7 @@ transition: transform 300ms linear opacity 300ms linear;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.05);
 
-  opacity: 1;
-  transition: opasity 250ms linear, visibility 250ms linear;
+  transition: opacity 300ms linear, visibility 300ms linear;
 }
 
 .is-hidden {
@@ -700,7 +699,7 @@ transition: transform 300ms linear opacity 300ms linear;
 }
 
 .backgrop .is-hidden .modal {
-  transform: translate(-50%, -50%) scale(1.1);
+  transform: translate(-50%, -50%) scale(0);
 }
 
 .modal {
@@ -714,7 +713,8 @@ transition: transform 300ms linear opacity 300ms linear;
   background-color: #FCFCFC;
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: transform 250ms linear;
+  transition: transform 300ms linear;
+  opacity: 1;
 }
 
 .modal-button {
